@@ -50,8 +50,7 @@ COPY index.html /var/www/html/index.html
 
 # === INFORMACIÓN DEL SISTEMA ===
 # TODO: Eliminar esta línea (no debe quedar rastro del host)
-RUN uname -a > /etc/banner.txt
-
+:wget
 EXPOSE 80
 
 # === COMANDO DE INICIO ===
